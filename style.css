@@ -1,0 +1,61 @@
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: inherit;
+}
+
+html {
+  font-size: 62.5%; /* 1rem = 10px*/
+}
+
+body {
+  font-family: "Outfit", sans-serif;
+  font-weight: 400;
+  box-sizing: border-box;
+}
+
+.container {
+  background-color: hsl(212, 45%, 89%);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  padding: 0 1.6rem;
+}
+
+.card {
+  max-width: 32rem;
+  background-color: hsl(0, 0%, 100%);
+  padding: 1.6rem;
+  padding-bottom: 4rem;
+  border-radius: 2rem;
+  box-shadow: 0 1.6rem 3.2rem rgba(0, 0, 0, 0.06);
+}
+
+.card__img {
+  width: 100%;
+  border-radius: 1rem;
+}
+
+.card__content {
+  margin-top: 2.4rem;
+  padding: 0 1.6rem;
+  text-align: center;
+}
+
+.card__title {
+  font-size: 2.2rem;
+  font-weight: 700;
+  line-height: 1.2;
+  color: hsl(218, 44%, 22%);
+  margin-bottom: 1.6rem;
+}
+
+.card__details {
+  font-size: 1.5rem;
+  color: hsl(216, 15%, 48%);
+  line-height: 1.4;
+  letter-spacing: 0.2px;
+}
